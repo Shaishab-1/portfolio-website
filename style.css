@@ -99,7 +99,7 @@ line-height:1.6;
 
 /* SOCIAL ICONS */
 
-.social{
+/* .social{
 margin-top:20px;
 }
 
@@ -116,6 +116,37 @@ display:inline-block;
 .social a:hover{
 background:#d946ef;
 color:white;
+} */
+
+.social a {
+  font-size: 38px;
+  margin-right: 15px;
+  margin-top:20px;
+  text-decoration: none;
+  padding:10px;
+  display:inline-block;
+}
+
+/* Brand colors */
+.social a .bxl-linkedin {
+  color: #d946ef;
+}
+
+.social a .bxl-github {
+  color: #d946ef;
+}
+
+.social a .bxl-twitter {
+  color: #d946ef;
+}
+.social a .bx-envelope {
+  color: #d946ef;
+}
+
+/* Hover effect (optional) */
+.social a:hover i {
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 
 /* BUTTON */
